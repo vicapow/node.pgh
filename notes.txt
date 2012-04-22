@@ -1,0 +1,9 @@
+getting up and running with Node.JS, Nodejitsu, and express.
+
++ install node and npm
++ signup for nodejitsu and try your account activates. I had some luck asking the devs on the #nodejitsu IRC channel
++ sudo npm install jitsu -g
++ jitsu users confirm <your-user-name> <your-confirmation-key>
++ build your site
++ jitsu deploy (walk through the setup prompts)
++ done!
