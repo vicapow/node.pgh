@@ -1,4 +1,11 @@
 #container
 	.container
 		header#header
-			img(src="/style/img/logo.png")
+			img(src="/style/img/logo2.png")
+		.members
+			for member in members
+				.member
+					img(src=member.photo_url.replace('member_','thumb_'))
+					h2.name !{member.name}
+					.clear
+!{JSON.stringify(members)}

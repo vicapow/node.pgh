@@ -1,1 +1,3 @@
-body{background-image:url('/style/img/bg.png');font-family:'Helvetica';}body .container{width:980px;margin:auto;}body .container #header{text-align:center;font-size:30px;}
+body{font-family:'Helvetica';}body .container{width:980px;margin:auto;}body .container #header{text-align:center;font-size:30px;}
+body .container .members .member{background-color:blue;width:300px;margin:auto;}body .container .members .member img{max-width:50px;min-height:50px;margin:5px;display:inline;float:left;}
+.clear{clear:both;}
